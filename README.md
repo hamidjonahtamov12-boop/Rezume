@@ -71,5 +71,5 @@ export default defineConfig([
   },
 ])
 ```
-
-# Rezumi
+# RentCar
+# Rezume
