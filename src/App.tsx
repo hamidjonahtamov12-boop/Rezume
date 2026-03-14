@@ -699,7 +699,13 @@ const ResumeBuilder = () => {
         .theme-btn { background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.12); border-radius:10px; padding:0.55rem 1rem; font-size:0.8rem; font-weight:700; font-family:'Plus Jakarta Sans',sans-serif; color:var(--dim); cursor:pointer; transition:all 0.18s; white-space:nowrap; }
         .theme-btn:hover { background:rgba(255,255,255,0.1); color:var(--text); border-color:rgba(255,255,255,0.2); }
 
-        input[type="date"].fi { padding-top:1.15rem; }
+
+        @media (max-width:560px){
+          .fi{padding:0.9rem 0.7rem 0.32rem;font-size:0.85rem;}
+          .fi-sel{padding-top:0.7rem;padding-bottom:0.32rem;}
+          .fl{font-size:0.76rem;}
+          .fl.fll{font-size:0.58rem;}
+        }        input[type="date"].fi { padding-top:1.15rem; }
         input[type="date"]::-webkit-calendar-picker-indicator { filter:invert(0.55); cursor:pointer; }
       `}</style>
 
